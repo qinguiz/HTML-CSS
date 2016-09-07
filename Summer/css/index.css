@@ -1,0 +1,56 @@
+*{ margin:0px; padding:0px;}
+a:link,a:hover{ text-decoration:none;}
+body{ font-size:12px; background: rgb(209,232,226) url(../images/90304_top.jpg) no-repeat top left; color:#5d5d5d;}
+.blank{ margin:auto; clear:both; height:5px; overflow:hidden; width:100%;}
+header{ width:1000px; margin:auto; padding:40px 0px;}
+header h1{ font-size:42px; font-weight:blod; text-shadow:#FFF 1px 1px 1px;}
+header h1 a{ color:#000;-moz-transition: all 0.5s;}
+header h1 a:hover{ padding-left:20px;}
+header p{ margin:18px 0 0 0; text-shadow:#000 1px 1px 1px; color:#fff;}
+.article{ margin:auto; width:1030px; overflow:auto;}
+#nav{ width:100%; height:40px; line-height:40px; margin:auto; background:rgba(245,245,245,0.2);}
+#nav ul{ list-style:none; width:1000px; margin:0 auto;}
+#nav ul li{ float:left;text-shadow:#000 1px 1px 1px; width:100px; text-align:center;}
+#nav ul li a{ display:block; color:#fff; -moz-transition:all 0.5s;}
+#nav ul li a:hover{ background:#e15782; border-radius:50px 0px; font-weight:bold;}
+.content{ float:left; width:745px;}
+.tophead{ height:256px; overflow:hidden;}
+.tophead h3{ border-bottom:#FFF solid 1px; width:100%; margin-bottom:14px; overflow:hidden;}
+.tophead h3 p{ background-color:rgb(154,204,153); width:180px; height:25px; line-height:25px; margin:15px 0 0 10px; text-align:center; color:white; box-shadow:#999 4px 5px 2px;}
+.tophead img{ float:left; margin-left:10px;}
+.tophead ul{ background:rgba(245,245,245,0.6) url(../images/libg.png) no-repeat 0px 15px; border:#DDD 1px solid; list-style:none; line-height:26px; float:right; width:414px;}
+.tophead ul li{ text-align:center; border-bottom:#DDD solid 1px; border-top:#FFF solid 1px; font-family:"微软雅黑";}
+.tophead ul li span{ display:block; font-size:12px; color:#999; font-weight:normal;}
+.tophead ul li a{ color:#ef7000; font-size:20px; font-weight:bold; -moz-transition: all 0.5s; display:block; padding:7px 0;}
+.tophead ul li a:hover{ background:#9ACC99; color:#39F;}
+.bloglist{ width:100%; margin:20px 5px 20px 0;}
+.bloglist h2{ background:url(../images/libg.png) no-repeat 10px -294px; height:29px; line-height:29px; font-size:14px; padding:10px 0px 10px 40px;}
+.bloglist h2 a{ color:#3b3b3b; display:block; -moz-transition:all 0.5s;}
+.bloglist h2 a:hover{ padding-left:20px; cursor:pointer;}
+.bloglist ul{ background:#F5F5F5; border-radius:10px; line-height:24px; padding:10px; margin-bottom:20px;}
+.bloglist p{ text-indent:2em;}
+figure{ text-align:center; margin:20px 0;}
+.dateview{ border:#ccc dashed 1px; margin:0 10px; color:#666; height:26px; line-height:26px;}
+.dateview a{ color:#838383;}
+.dateview span{ margin:0 10px;}
+aside{ float:right; width:276px; overflow:hidden;}
+aside.navsidebar nav{ height:150px; margin-top:40px;}
+aside nav ul{ list-style:none; text-align:center;}
+aside nav ul li{ float:left; width:90px; height:74px; line-height:74px; margin-right:2px; margin-top:2px;}
+aside nav ul li.ab{ background:#FF9A66;}
+aside nav ul li.sy{ background:#99CC33;}
+aside nav ul li.js{ background:#9ACC99;}
+aside nav ul li.msh{ background:#9A6601;}
+aside nav ul li.xc{ background:#FFCC33;}
+aside nav ul li.ly{ background:#99CDFF;}
+aside nav ul li a{ display:block; color:#fff; -moz-transition:all 1s;}
+aside nav ul li a:hover{ -moz-transform:rotate(360deg);}
+aside h2{ border-bottom:#FFF solid 1px; margin:10px 0; font-size:14px; font-family:"微软雅黑"; overflow:hidden;}
+aside h2 p{ background:#CDCC34; color:#FFF; width:180px; height:26px; line-height:26px; text-align:center; margin: 10px 0px 0px 10px; box-shadow:#CCC 4px 3px 0.6px;}
+.news{ list-style:none; padding:10px;}
+.news li{ background:url(../images/list.gif) no-repeat left center; padding-left:20px;}
+.news li a{ display:block; height:22px; line-height:22px; color:#666; -moz-transition:all 0.5s;}
+.news li a:hover{ padding-left:20px;}
+#copyright{ text-align:center; width:100%;}
+#copyright a{  color:#666; -moz-transition:all 5s; display:block;}
+#copyright a:hover{-moz-transform:rotate(360deg);}
