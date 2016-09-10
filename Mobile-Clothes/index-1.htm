@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>移动设备在线订购</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="themes/mytheme.min.css" />
+<link rel="stylesheet" href="jquery/jquery.mobile.structure-1.1.1.min.css" />
+<script src="jquery/jquery-1.7.1.min.js"></script>
+<script src="jquery/jquery.mobile-1.1.1.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+*{font-family:Arial, Helvetica,  sans-serif,微软正黑体;}
+#content{
+	font-size:15px;
+	padding:20px;
+	margin:0px;
+}
+img{margin:0px}
+#message{
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+}
+</style>
+<script type="text/javascript"> 
+ var orderitem = "orderitem";
+ var flavor = "itemflavor";
+ var num = "num";
+
+         $("#second").live('pagecreate', function() {
+             $('#addToStorage').click(function() {			
+                 localStorage.orderitem=$("select#selectitem").val();
+				 localStorage.flavor=$('input[name="flavoritem"]:checked').val();
+				 localStorage.num=$('#num').val();	 
+				 $.mobile.changePage($('#third'),{transition: 'slide'});   
+             });
+         });
+		
+          $('#third').live('pageinit', function() {			 
+				 var itemflavor = "服装种类："+ localStorage.orderitem+"<br>尺寸："+localStorage.flavor+"<br>数量："+localStorage.num;
+				 $('#message').html(itemflavor);
+		  });
+
+</script> 
+</head>
+<body>
+<div data-role="page" data-title="服装列表" id="first" data-theme="a">
+<div data-role="header">
+<a href="index.htm" data-icon="arrow-l" data-iconpos="left" data-ajax="false">Back</a> <h1>男士服装</h1>
+</div>
+<div data-role="content" id="content">
+	<ul data-role="listview" data-inset="true" data-filter="true">		
+		<li>
+			<a href="#second">
+			 <img src="images/xi-1.jpeg" />
+			 <h3>西装外套-纯白款</h3>
+             <p>￥300/件</p>
+			 <p>色泽纯白，商务款式，单纽扣</p>		 
+			</a>
+			<a href="#second" data-icon="gear"></a>
+		</li>
+		<li>
+			<a href="#second">
+			  <img src="images/xi-2.jpg" />
+			  <h3>西装外套-宴会款</h3>
+              <p>￥320/件</p>
+			  <p>经典宴会款式，单纽扣形式</p>			 
+			</a>
+			<a href="#second" data-icon="gear"></a>
+		</li>
+        <li>
+			<a href="#second">
+			  <img src="images/x-3.jpg" />
+			  <h3>西装外套-商务款</h3>
+              <p>￥280/件</p>
+			  <p>细竖条纹款式，经典样式</p>			 
+			</a>
+			<a href="#second" data-icon="gear"></a>
+		</li><li>
+			<a href="#second">
+			  <img src="images/x-4.jpg" />
+			  <h3>西装外套-双排扣款</h3>
+              <p>￥350/件</p>
+			  <p>面料舒适，布料丝滑，绅士风格，修身塑形</p>			 
+			</a>
+			<a href="#second" data-icon="gear"></a>
+		</li>
+	</ul>
+
+		</div>
+<div data-role="footer" data-position="fixed" style="text-align:center">
+  订购专线：12345678910
+</div>
+</div>
+<div data-role="page" data-title="选择服装" id="second" data-theme="a" data-add-back-btn="true">
+<div data-role="header">
+<h1>选择尺寸</h1>
+</div>
+<div data-role="content" id="content">
+	包装类型：
+	<select name="selectitem" id="selectitem">
+	   <option value="偏大尺寸，一般包装">偏大尺寸，一般包装</option>
+	   <option value="标准尺寸，一般包装">标准尺寸，一般包装</option>
+	   <option value="偏小尺寸，一般包装">偏小尺寸，一般包装</option>
+	   <option value="偏大尺寸，礼盒包装">偏大尺寸，礼盒包装</option>
+	   <option value="标准尺寸，礼盒包装">标准尺寸，礼盒包装</option>
+	   <option value="偏小尺寸，礼盒包装">偏小尺寸，礼盒包装</option>
+	</select>
+
+<fieldset data-role="controlgroup">
+		<legend>选择尺寸：</legend>
+			<input type="radio" name="flavoritem" id="radio-choice-5" value="S" />
+			<label for="radio-choice-5">S-男</label>
+			<input type="radio" name="flavoritem" id="radio-choice-6" value="M"  checked />
+			<label for="radio-choice-6">M-男</label>
+			<input type="radio" name="flavoritem" id="radio-choice-7" value="L"  />
+			<label for="radio-choice-7">L-男</label>
+			<input type="radio" name="flavoritem" id="radio-choice-8" value="XL"  />
+			<label for="radio-choice-8">XL-男</label>
+			<input type="radio" name="flavoritem" id="radio-choice-9" value="XXL"  />
+			<label for="radio-choice-9">XXL-男</label>
+
+	订购数量：<br>
+	<input type="range" name="num" id="num" value="3" min="0" max="100" data-highlight="true" />
+   <input type="button" id="addToStorage" value="送出订购" />
+
+</div>
+<div data-role="footer" data-position="fixed" style="text-align:center">
+  订购专线：12345678910
+</div>
+</div>
+<div data-role="page" id="third">
+<div data-role="header">
+<a href="index.htm" data-icon="arrow-l" data-iconpos="left" data-ajax="false">回首页</a> <h1>订购完成</h1>
+</div>
+<div data-role="content" id="content">
+<img src="images/index.png" /><br>
+<p><strong>默认为面交，地点双方协定，联系方式在下端。</strong></p>
+<p><strong>如需快递，快递默认为顺丰，只退货不换货。</strong></p>
+<font style="font-size:20px;">感谢您批发服装<br>
+以下为您的订购列表：</font>
+<p><div id="message"></div>
+</div>
+<div data-role="footer" data-position="fixed" style="text-align:center">
+  订购专线：12345678910
+</div>
+</div>
+
+
+</body>
+</html>
