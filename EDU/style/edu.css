@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 1348px;
+	height: 90px;
+}
+header h1{
+	font-size: 20px;
+	line-height: 90px;
+	height: 90px;
+	width: 230px;
+	display: block;
+	margin-right: 31px;
+	float: left;
+}
+header h1 span{
+	font-weight: bold;
+	color: #39a035;
+	margin-right: 13px;
+	padding-right: 10px;
+	border-right: 1px solid #39a035;
+	font-family: "Gill Sans MT","Microsoft YaHei";
+}
+#hd{
+	width: 1206px;
+	height: 90px;
+	margin: auto;
+}
+#focus-tb{
+	width: 104px;
+	float: left;
+	height: 90px;
+}
+#focus{
+	width: 49px;
+	float: left;
+	margin-right: 14px;
+}
+#focus span{
+	background-color: #22a653;
+	height: 21px;
+	display: inline-block;
+	width: 49px;
+	text-align: center;
+	color: white;
+	border-radius: 2px;
+	position: relative;
+	top: 35px;
+	font-size: 12px;
+	line-height: 21px;
+
+}
+#fans{
+	float: left;
+	line-height: 90px;
+	font-size: 12px;
+	color: #656565;
+}
