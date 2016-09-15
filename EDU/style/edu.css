@@ -146,10 +146,11 @@ header h1 span{
 	padding-left: 4px;
 }
 article{
+	position: relative;
 	padding: 0 73px;
 }
 section{
-	width: 1000px;
+	width: 980px;
 }
 section ul{
 	width: 977px;
@@ -228,4 +229,115 @@ section ul li.active span{
 	color: #ff3f22;
 	font-size: 12px;
 	margin-left: 5px;
+}
+
+aside{
+	width: 227px;
+	position: absolute;
+	right: 75px;
+	top: 0px;
+
+}
+#org{
+	width: 225px;
+	height: 230px;
+	border:1px solid #eee;
+	box-shadow: 1px 1px 2px #eee;
+	margin-bottom: 18px;
+}
+#org h3{
+	width: 225px;
+	height: 50px;
+	border:1px solid #eee;
+	line-height: 50px;
+	text-indent: 20px;
+}
+#org .video{
+	height: 142px;
+	width: 193px;
+	margin-top: -1px;
+	padding: 16px;
+}
+#org .video p{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+#mark{
+	height: 776px;
+	width: 225px;
+	border-radius: 2px;
+	border:1px solid #eee;
+	overflow: hidden;
+}
+#mark h3{
+	width: 225px;
+	height: 50px;
+	border:1px solid #eee;
+	line-height: 50px;
+	text-indent: 20px;
+}
+#mark .content{
+	padding: 20px;
+	
+}
+#r1 li{
+	width: 185px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#r1 li .album{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#r1 li img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#r1 .info{
+	width: 122px;
+	height: 50px;
+	float: right;
+}
+#r1 .info .title{
+	font-size: 12px;
+	color: black;
+}
+#r1 .info .num{
+	padding: 10px 0 0 10px;
+	font-size: 12px;
+	color: #999;
+}
+
+
+
+#r2 li{
+	width: 185px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#r2 li .album{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#r2 li img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#r2 .info{
+	width: 122px;
+	height: 50px;
+	float: right;
+}
+#r2 .info .title{
+	font-size: 12px;
+	color: black;
+}
+#r2 .info .num{
+	padding: 10px 0 0 10px;
+	font-size: 12px;
+	color: #999;
 }
