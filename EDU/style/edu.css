@@ -148,6 +148,7 @@ header h1 span{
 article{
 	position: relative;
 	padding: 0 73px;
+	height: 1500px;
 }
 section{
 	width: 980px;
@@ -340,4 +341,10 @@ aside{
 	padding: 10px 0 0 10px;
 	font-size: 12px;
 	color: #999;
+}
+
+footer{
+	clear: both;
+	height: 261px;
+	background-color: #2c3339;
 }
