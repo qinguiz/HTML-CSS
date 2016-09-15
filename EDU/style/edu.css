@@ -90,3 +90,142 @@ header h1 span{
 #nav li.middle{
 	padding: 0 53px;
 }
+#banner{
+	width: 1348px;
+	height: 460px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#product{
+	width: 1271px;
+	height: 296px;
+	padding-left: 77px;
+}
+#product ul li{
+	width: 402px;
+	float: left;
+	padding-top: 62px;
+}
+#product ul li img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 5px;
+}
+#product .content{
+	float: left;
+	width: 276px;
+	padding: 0 15px;
+	font-size: 12px;
+}
+#product .content h2{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#product .content p{
+	line-height: 24px;
+	font-family: "微软雅黑";
+	width: 224px;
+	font-size: 14px;
+}
+#product .content a{
+	color: #399f2f;
+	display: inline-block;
+	padding-top: 22px;
+}
+#pics{
+	height: 302px;
+	width: 1356px;
+	margin-left: -4px;
+}
+#pics img{
+	display: block;
+	width: 267px;
+	height: 220px;
+	float: left;
+	padding-left: 4px;
+}
+article{
+	padding: 0 73px;
+}
+section{
+	width: 1000px;
+}
+section ul{
+	width: 977px;
+	height: 50px;
+}
+section ul li{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	box-shadow: 0 1px 2px #666;
+	margin-right: 4px;
+}
+section ul li span{
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+section ul li.active{
+	background-color: #399f2f;
+}
+section ul li.active span{
+	color: white;
+}
+#courses{
+	padding-top: 30px;
+}
+#courses .items{
+	float: left;
+	width: 223px;
+	height: 230px;
+	padding: 2px;
+	border:1px solid #eeeeee;
+	margin-right: 16px;
+	margin-bottom: 20px;
+}
+#courses img{
+	width: 223px;
+	height: 124px;
+}
+#courses p {
+	line-height: 24px;
+	font-size: 12px;
+	text-indent: 5px;
+}
+#courses span{
+	font-size: 12px;
+	padding-left: 5px;
+	color: #666;
+}
+
+#courses .num{
+	margin-top: 12px;
+	margin-left: 5px;
+	width: 54px;
+	height: 18px;
+	border-radius: 2px;
+	border:1px solid #999;
+	font-size: 12px;
+}
+
+#courses .num i{
+	display: block;
+	width: 18px;
+	height: 18px;
+	background:url(../images/icons.png) no-repeat 0px -18px;
+	float: left;
+}
+#courses .num span{
+	line-height: 18px;
+	text-indent: 5px;
+}
+#courses .price{
+	padding-top: 10px;
+	color: #ff3f22;
+	font-size: 12px;
+	margin-left: 5px;
+}
