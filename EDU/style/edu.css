@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	-webkit-text-size-adjust:none
 }
 li{
 	list-style: none;
@@ -96,6 +97,14 @@ header h1 span{
 	overflow: hidden;
 	margin: 0 auto;
 }
+
+#banner ul{
+	position: relative;
+	height: 1380px;
+}
+
+
+
 #product{
 	width: 1271px;
 	height: 296px;
@@ -375,16 +384,17 @@ footer .left p {
 
 footer .right{
 	float: right;
-	margin-right: 100px;
+	margin-right: 200px;
 }
 
 footer .right ul{
 	float: left;
-	font-size: 12px;
-	padding-left: 120px;
+	font-size: 8px;
+	outline: 8px;
+	padding-left: 80px;
 	color: #bbbeab;
 }
 footer .right ul li {
-	padding-top: 10px;
+	padding-top: 15px;
 	font-size: 14px;
 }
