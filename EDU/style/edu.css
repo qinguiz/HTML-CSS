@@ -348,3 +348,43 @@ footer{
 	height: 261px;
 	background-color: #2c3339;
 }
+
+footer .container{
+	padding: 80px 120px 0px;
+}
+
+footer .left{
+	float: left;
+	margin-top: 10px;
+}
+
+footer .left h2{
+	color: #35aa25;
+}
+footer .left h2 span{
+	display: inline-block;
+	padding-right: 10px;
+	border-right: 1px solid #35aa25;
+	margin-right: 10px;
+}
+
+footer .left p {
+	margin-top: 25px;
+	color: #bbbeab;
+}
+
+footer .right{
+	float: right;
+	margin-right: 100px;
+}
+
+footer .right ul{
+	float: left;
+	font-size: 12px;
+	padding-left: 120px;
+	color: #bbbeab;
+}
+footer .right ul li {
+	padding-top: 10px;
+	font-size: 14px;
+}
