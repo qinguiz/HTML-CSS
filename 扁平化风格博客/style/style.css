@@ -1,0 +1,52 @@
+nav{
+	height: 50px;
+	background: #aaa;
+}
+#banner{
+	background: #666;
+	height: 500px;
+}
+nav ul{
+	list-style: none;
+	float: right;
+}
+nav ul:after{
+	content: ".";
+	height: 0;
+	clear: both;
+
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+nav ul li a{
+	display: inline-block;
+	height: 50px;
+	color: white;
+}
+
+#banner .inner{
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+	top: 20%;
+}
+#banner .inner h1{
+	margin: 0;
+}
+#banner .inner button{
+	padding: 6px 26px;
+}
+#banner .inner .more{
+	margin-top: 260px;
+}
+.logo{
+	display: inline-block;
+	line-height: 50px;
+}
+.logo a{
+	color: white;
+	margin-left: 20px;
+}
