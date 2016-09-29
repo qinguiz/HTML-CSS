@@ -1,9 +1,18 @@
+body{
+	font-family: "微软雅黑";
+}
+
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
 nav{
 	height: 50px;
-	background: #aaa;
+	background: #292929;
 }
 #banner{
-	background: #666;
+	background: #383232;
 	height: 500px;
 }
 nav ul{
@@ -32,6 +41,7 @@ nav ul li a{
 	margin: 0 auto;
 	position: relative;
 	top: 20%;
+	color: #fff;
 }
 #banner .inner h1{
 	margin: 0;
@@ -49,4 +59,130 @@ nav ul li a{
 .logo a{
 	color: white;
 	margin-left: 20px;
+}
+.wrapper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.green-section{
+	text-align: center;
+	background: #089DB0;
+	color: #ffffff;
+	padding: 100px 0;
+}
+.hr{
+	max-width: 100%;
+	height: 2px;
+}
+.green-section .hr{
+	max-width: 60%;
+	margin: 20px auto;
+	border-bottom: 2px solid #037887;
+}
+.green-section .icon-group .icon{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background: #037887;
+	transform: rotate(45deg);
+	margin: 20px;
+}
+.green-section .icon-group{
+	margin-top: 60px;
+}
+.gray-section{
+	background: #1c3244;
+	color: #fff;
+}
+.img-section{
+	width: 45%;
+}
+.img-section img{
+	width: 100%;
+}
+.text-section{
+	width: 55%;
+}
+.article-preview > div{
+	float: left;
+}
+.clrfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.sub-heading{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.text-section{
+	position: relative;
+	top: 68px;
+	left: 50px;
+}
+
+.text-section h2{
+	margin-bottom: 10px;
+}
+
+.text-section p{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.text-section > *{
+	max-width: 90%;
+}
+
+.article-preview:nth-child(odd){
+	background: rgba(255,255,255,0.05);
+}
+
+.purple-section h2{
+	margin-top: 0;
+}
+
+.purple-section{
+	background: #513351;
+	color: #fff;
+	padding: 100px 200px;
+}
+
+.purple-section .hr{
+	border-bottom: 2px solid #402540;
+	width: 60%;
+	margin: 20px auto 20px;
+}
+h3{
+	margin-top: 0;
+}
+.card{
+	float: left;
+	width: 50%;
+	padding: 50px;
+	max-height: 350px;
+	box-sizing: border-box;
+}
+
+.card-group{
+	margin-top: 100px;
+}
+
+.card:nth-child(1){
+	background: rgba(0,0,0,0.06);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.09);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.09);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.06);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.06);
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.09);
 }
