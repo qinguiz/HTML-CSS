@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	-webkit-text-size-adjust:none
+
 }
 li{
 	list-style: none;
@@ -359,7 +359,7 @@ footer{
 }
 
 footer .container{
-	padding: 80px 120px 0px;
+	padding: 40px 120px 0px;
 }
 
 footer .left{
@@ -379,6 +379,7 @@ footer .left h2 span{
 
 footer .left p {
 	margin-top: 25px;
+	width: 350px;
 	color: #bbbeab;
 }
 
@@ -389,8 +390,7 @@ footer .right{
 
 footer .right ul{
 	float: left;
-	font-size: 8px;
-	outline: 8px;
+	font-size: 12px;
 	padding-left: 80px;
 	color: #bbbeab;
 }
